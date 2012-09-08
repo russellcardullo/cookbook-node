@@ -18,6 +18,7 @@
 #
 
 include_recipe "git"
+include_recipe "build-essential"
 
 [ "curl"].each do |pkg|
   package pkg do
